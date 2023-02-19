@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>LOGIN</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<body>
+    <div class="contenedor">
+        <form class="form" id="form">
+            <h1>Create Account</h1>
+
+            <label class="labels" for="lblnombre">Nombre</label>
+            <input class="datos" type="text" name="nombre" id="nombreJS" onkeyup="validador()">
+            <span id="error" for="error"></span>
+
+            <label class="labels" for="lblemail">Email</label>
+            <input class="datos" type="text" name="email">
+            <span id="error" for="error"></span>
+
+            <label class="labels" for="lblclave1">Clave</label>
+            <input class="datos" type="password" name="clave1">
+            <span id="error" for="error"></span>
+
+            <label class="labels" for="lblclave2">Confirme su clave</label>
+            <input class="datos" type="password" name="clave2">
+            <span id="error" for="error"></span>
+
+            <input class="boton" type="submit" value="ENVIAR" onsubmit="validar()">
+        </form>
+    </div>
+
+    <script scr="/index.js">
+    </script>
+</body>
